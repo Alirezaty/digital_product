@@ -15,7 +15,7 @@ class MyUserAdmin(UserAdmin):
     )
     add_fieldsets = (
         (None, {
-            'classes':('wide',),
+            'classes': ('wide',),
             'fields': ('username', 'phone_number', 'password1', 'password2'),
         }),
     )

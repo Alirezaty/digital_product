@@ -1,6 +1,7 @@
 #Django
 Django==3.2
 djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
 
 #photo and images
 Pillow==9.4.0
