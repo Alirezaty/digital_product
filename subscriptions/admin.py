@@ -9,4 +9,4 @@ class PackageAdmin(admin.ModelAdmin):
 
 @admin.register(Subscription)
 class SubscriptionAdmin(admin.ModelAdmin):
-    list_display = ['user', 'package', 'created_time', 'expired_time']
+    list_display = ['user', 'package', 'created_time', 'expire_time']
